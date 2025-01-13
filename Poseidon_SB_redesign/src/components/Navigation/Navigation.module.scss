@@ -1,0 +1,37 @@
+.navigation {
+    min-width: fit-content;
+    overflow: hidden;
+    width: 100%;
+    height: 64px;
+    > .items {
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px;
+        gap: 2rem;
+
+        .leftItems,
+        .rightItems {
+            width: fit-content;
+            height: fit-content;
+        }
+        > .leftItems {
+            img {
+                width: 165px;
+                min-width: 165px;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+        > .rightItems {
+            .navLinks {
+                gap: 1.5rem;
+                height: fit-content;
+            }
+            .navLinks .link {
+                min-width: fit-content;
+                height: fit-content;
+            }
+        }
+    }
+}
