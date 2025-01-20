@@ -77,6 +77,7 @@ function Homepage() {
                     </div>
 
                     <div className={styles.rightItems}>
+                    
                         <ImageGallery
                             infinite={true}
                             showThumbnails={false}
